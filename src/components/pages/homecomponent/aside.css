@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.asideright{
+    background-color: hsl(240, 100%, 5%);
+    border-radius: 0;
+    
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: hsla(36, 100%, 99%, 0.37);
+    margin: 20px 0;
+}
+
+.contentcard .card-title{
+    color: hsl(35, 77%, 62%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.asideright a{
+    text-decoration: none;
+    color: hsl(36, 100%, 99%);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.listofnews ul{
+    width: 100%;
+    padding: 0px;
+}
+
+.contentcard{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.list-group-item p{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.asideright a:hover{
+    color: hsl(35, 77%, 62%);
+}
+
+/* aside hero */
+
+.asidecontent{
+    width: 98%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+    
+
+.picture{
+    width: 100%;
+    height: 44%;
+}
+
+.picture img{
+    width: 100%;
+    height: 100%;
+}
+
+.maintitle p{
+    letter-spacing: 3px;
+    line-height: 53px;
+    width: 80%;
+    font-size: 3.5rem;
+    font-weight: 900;
+    padding-left: 15px;
+}
+
+.description p{
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.description button{
+    letter-spacing: 5px;
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    outline: none;
+    color: hsl(36, 100%, 99%);
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.description button:hover{
+    background-color: hsl(240, 100%, 5%);
+}
+
+.bottomcontent{
+    display: flex;
+    align-items: flex-end;
+}
+
+/* card bottom */
+
+.litlecard{
+    border: none;
+}
+
+.parag{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-number{
+    font-size: 2.3rem;
+    font-weight: 600;
+    color: hsl(0, 0%, 70%);
+
+}
+
+.card-title{
+    font-size: 1.3rem;
+    font-weight: 900;
+    color: hsl(240, 100%, 5%);
+}
+
+.card-text{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: hsl(0, 1%, 58%);
+}
